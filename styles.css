@@ -1,0 +1,38 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ text-align: justify;
+ vertical-align: top;
+ /*font-family: Georgia;*/
+}
+
+h1, img, h2, p, div{
+	display: inline-block;
+}
+
+#wrap{
+	width: 970px;
+	background-color: #f2f2f2;
+	font-size: smaller;
+	margin: 10px;
+	padding: 5px;
+}
+
+#container{
+	background-color: #800000;
+	padding: 10px 20px;
+}
+
+#Photo_Of_Me{
+	height: 200px;
+	width: 300px;
+	border-color: silver;
+	border-width: 2px;
+	border-style: solid;
+}
+
+#aboutdiv{
+	background-color: white;
+	padding: 10px 20px;
+}
+
