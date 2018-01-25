@@ -18,6 +18,11 @@ button{
 	background-color: green;
 }
 
+a{
+	color: black;
+	padding:10px;
+}
+
 #head1{
 	margin-left: 20px;
 }
@@ -33,11 +38,12 @@ button{
 	background-color: #f2f2f2;
 	font-size: smaller;
 	margin: 10px;
-	padding: 5px;
+	padding: 10px;
 }
 
 #container{
-	background-color: #800000;
+	background-color: #29171d;
+	background: radial-gradient(#29171d,#623745,#29171d);
 	margin-top: 5px;
 	padding: 10px 20px;
 }
@@ -45,28 +51,37 @@ button{
 #Photo_Of_Me{
 	width: 45%;
 	/*height: 190px;*/
-	margin: 5px 19px 5px 5px;
 	border-color: silver;
 	border-width: 2px;
 	border-style: solid;
 }
 
 #aboutdiv{
-	width: 45%;
+	width: 98%;
+	height: 270px;
 	margin: 5px;
-	line-height: 17px;
+	/*background-color: white;*/
+}
+#aboutme{
+	width: 50%;
+	height: 250px;
+	padding: 0px;
 	background-color: white;
+	margin-left: 20px;
+}
+.aboutp{/*
+	min-height: 100px;
+	max-height: 150px;*/
+	/*width: 45%*/
+	padding: 10px;
 }
 
 .minihead{
+	background: linear-gradient(#bfbfbf,#666666,#bfbfbf);
 	display: block;
 	color: white;
-	background-color: grey;
+	/*background-color: grey;*/
 	padding: 10px 5px;
-}
-
-#aboutp, #aboutp2{
-	padding: 5px;
 }
 
 #la_mode_img, #five_img, #fam_img{
@@ -103,4 +118,3 @@ button{
 	text-align: center;
 	margin: 0 auto;
 }
-
