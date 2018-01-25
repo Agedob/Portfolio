@@ -3,15 +3,33 @@
  padding: 0px;
  text-align: justify;
  vertical-align: top;
- /*font-family: Georgia;*/
+ font-family: arial;
 }
 
-h1, img, h2, p, div{
+h1, img, h2, p, div, button{
 	display: inline-block;
 }
 
+button{
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 3px;
+	background-color: green;
+}
+
+#head1{
+	margin-left: 20px;
+}
+
+#head2{
+	/*align-self: center;*/
+	margin-top: 5px;
+	margin-left: 350px;
+}
+
 #wrap{
-	width: 970px;
+	width: 880px;
 	background-color: #f2f2f2;
 	font-size: smaller;
 	margin: 10px;
@@ -20,19 +38,69 @@ h1, img, h2, p, div{
 
 #container{
 	background-color: #800000;
+	margin-top: 5px;
 	padding: 10px 20px;
 }
 
 #Photo_Of_Me{
-	height: 200px;
-	width: 300px;
+	width: 45%;
+	/*height: 190px;*/
+	margin: 5px 19px 5px 5px;
 	border-color: silver;
 	border-width: 2px;
 	border-style: solid;
 }
 
 #aboutdiv{
+	width: 45%;
+	margin: 5px;
+	line-height: 17px;
 	background-color: white;
-	padding: 10px 20px;
+}
+
+.minihead{
+	display: block;
+	color: white;
+	background-color: grey;
+	padding: 10px 5px;
+}
+
+#aboutp, #aboutp2{
+	padding: 5px;
+}
+
+#la_mode_img, #five_img, #fam_img{
+	width: 100%;
+}
+
+#la_mode, #five, #fam{
+	margin: 10px;
+	width: 30%;/*
+	height: 505px;*/
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.icons{
+	width: 35px;
+	height: 35px;
+	margin: 5px;
+}
+
+.min-max{
+	min-height: 150px;
+	max-height: 150px;
+	padding: 10px;
+}
+
+.s_icons{
+	width: 15px;
+	height: 15px;
+	/*margin: 5px;*/
+}
+#foot{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
 }
 
